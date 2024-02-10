@@ -1,0 +1,322 @@
+@media only screen and (min-width:481px) and (max-width:767px) {
+
+    /* CONTAINER1 */
+
+    #title {
+        height: 24px;
+    }
+
+    #container1 {
+        height: auto;
+        background-image: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.8)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4% 4% 10%;
+    }
+
+    #container1 .header select {
+        -webkit-appearance: none;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        border-radius: 5px;
+        background: linear-gradient(rgba(39, 38, 38, 0.5), rgba(39, 38, 38, 0.5));
+        color: #ffffff;
+    }
+
+    #container1 .header a {
+        width: 77%;
+        padding: 5% 10% 7%;
+        background-color: rgb(236, 26, 26);
+        color: #ffffff;
+        /* border: 0px; */
+        margin: 0 0 0 20px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #container1 .title h1 {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 3%;
+    }
+
+    #container1 .title h3 {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 3%;
+    }
+
+    #container1 .title h5 {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+
+    /* CONTAINER2 */
+
+    #container2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 1.5% 10% 10%;
+        background-color: #000000fa;
+        margin-top: .5%;
+    }
+
+    #container2 .caption {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0 0;
+        text-align: center;
+    }
+
+    #container2 .caption h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: 900;
+    }
+
+    #container2 .caption p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #container2 .photo .monitor {
+        background-image: url("tv.png");
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+        height: 480px;
+        width: 640px;
+    }
+
+    #container2 .photo video {
+        position: absolute;
+        height: 350px;
+        width: 480px;
+        margin-left: -5px;
+        margin-top: -10px;
+    }
+
+
+
+
+    /* CONTAINER3 */
+
+    #container3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 1.5% 10% 18%;
+        background-color: #000000fa;
+        margin-top: .5%;
+    }
+
+    #container3 .caption {
+        color: #ffffff;
+        display: flex;
+        grid-row-start: 1;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0 0;
+        text-align: center;
+    }
+
+    #container3 .caption h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: 900;
+    }
+
+    #container3 .caption p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #container3 .photo .monitor {
+        background-image: url("tv.png");
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+        height: 480px;
+        width: 640px;
+    }
+
+    #container3 .photo video {
+        position: absolute;
+        height: 350px;
+        width: 480px;
+        margin-left: -5px;
+        margin-top: -10px;
+    }
+
+
+
+    /* CONTAINER4 */
+
+    #container4 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 1.5% 10% 0%;
+        background-color: #000000fa;
+        margin-top: .5%;
+    }
+
+    #container4 .caption {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0 10%;
+        text-align: center;
+    }
+
+    #container4 .caption h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: 900;
+    }
+
+    #container4 .caption p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #container4 .photo .monitor {
+        background-image: url("tv1.png");
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+        height: 480px;
+        width: 640px;
+    }
+
+    #container4 .photo video {
+        position: absolute;
+        height: 250px;
+        width: 400px;
+        margin-left: -5px;
+        margin-top: -175px;
+    }
+
+    /* CONTAINER5 */
+
+
+    #container5 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 10% 0% 15%;
+        background-color: #000000fa;
+        margin-top: .5%;
+    }
+
+    #container5 .caption {
+        color: #ffffff;
+        display: flex;
+        grid-row-start: 1;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    #container5 .caption h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: 900;
+    }
+
+    #container5 .caption p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    #container5 .photo {
+        background-image: url("children.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 450px;
+        position: relative;
+        top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* CONTAINER6 */
+
+    #container6 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #000000fa;
+        padding: 1.5% 3% 7%;
+        margin-top: .5%;
+        color: #ffffff;
+    }
+
+    #container6 h1 {
+        font-size: 30px;
+        font-weight: 900;
+        padding: 5% 10% 2%;
+        text-align: center;
+    }
+
+    #container6 summary {
+        font-size: 18px;
+        list-style: none;
+        text-align: left;
+        font-weight: 600;
+        padding: 2.5%;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+    }
+
+    #container6 .FAQ p {
+        font-size: 18px;
+        padding-bottom: 2%;
+    }
+
+    #container6 h5 {
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 4% 0 0;
+        text-align: center;
+    }
+
+    /* CONTAINER7 */
+
+    #container7 {
+        height: auto;
+        padding: 3%;
+        margin-top: .5%;
+        background-color: #000000fa;
+    }
+    #container7 .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2% 0;
+    }
+    #container7 .footer .footer-parts ul, li{
+        padding: 2% 0;
+        list-style: none;
+    }
+}

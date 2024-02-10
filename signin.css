@@ -1,0 +1,180 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.7), rgba(12, 12, 12, 0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0% 0%;
+}
+#container1 a #title{
+    display: block;
+    position: absolute;
+    top: 6%;
+    left: 13%;
+    height: 40px;
+    z-index: 1;
+}
+#form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* left: 35%;
+    top: 120%; */
+    /* height: 600px; */
+    width: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.712));
+    border: 0px solid white;
+    border-radius: 5px;
+    padding: 4% 6%;
+}
+
+#form .first h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+#form .second {
+    padding: 5% 0;
+    text-align: center;
+}
+
+#form .second input[type="text"] {
+    display: block;
+    padding: 5% 5%;
+    width: 100%;
+    margin: 5% 0;
+    background: linear-gradient(rgba(39, 38, 38, 0.5), rgba(39, 38, 38, 0.5));
+    border: .5px solid #979292;
+    border-radius: 5px;
+    color: #c9c1c1;
+    font-size: 1rem
+}
+#form .second input[type="text"]::placeholder{
+    font-size: 1rem;
+    color: #c9c1c1;
+}
+#form .second input[type="password"] {
+    display: block;
+    padding: 5% 5%;
+    width: 100%;
+    background: linear-gradient(rgba(39, 38, 38, 0.5), rgba(39, 38, 38, 0.5));
+    border: .5px solid #979292;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+#form .second input[type="password"]::placeholder{
+    font-size: 1rem;
+    color: #c9c1c1;
+}
+
+#form .second a {
+    text-decoration: none;
+}
+
+#form .second a > input[type="submit"] {
+    display: block;
+    padding: 3% 40.9%;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(236, 26, 26);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5% 0;
+    cursor: pointer;
+}
+
+#form .second a>input[type="submit"]:hover {
+    background-color: rgb(179, 26, 26);
+}
+
+#form .second .forgot {
+    color: #ffffff;
+}
+
+#form .second .forgot:hover {
+    color: #c9c1c1;
+    text-decoration: underline;
+}
+
+#form .third {
+    margin: 25% 0;
+}
+
+#form .third label {
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
+#form .third p {
+    color: #c9c1c1;
+    margin: 6% 0;
+}
+#form .third p a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+#form .third p a:hover{
+    text-decoration: underline;
+}
+
+#container1 .footer{
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.712));
+    width: 100%;
+    margin: 5% 0 0;
+    padding: 5% 10% 3%;
+}
+#container1 .footer p{
+    color: #c9c1c1;
+}
+#container1 .footer p a{
+    color: #c9c1c1;
+    text-decoration: none;
+}
+#container1 .footer p a:hover{
+    text-decoration: underline;
+}
+
+#container1 .footer ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+#container1 .footer ul a{
+    padding: 10% 0 0 ;
+    font-size: 14px;
+    color: #c9c1c1;
+}
+
+#container1 .footer select {
+    -webkit-appearance: none;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 2%;
+    background: linear-gradient(rgba(39, 38, 38, 0.5), rgba(39, 38, 38, 0.5));
+    color: #ffffff;
+    padding: .5% 2%;
+    margin: 3% 0;
+}
+
+#container1 .footer select option {
+    color: #212121;
+    font-size: medium;
+    text-align: left;
+    padding: 0 1%;
+}
